@@ -9,5 +9,6 @@
             "name": "Evgeny Soynov",
             "email": "saboteur@saboteur.me"
         }
-    ]
+    ],
+    "minimum-stability": "dev"
 }
