@@ -1,0 +1,9 @@
+parameters:
+     cache_cleaner.class: ZloeSabo\CacheCleanerBundle\CacheCleaner\CacheCleaner
+
+services:
+     cache_cleaner:
+         class: %cache_cleaner.class%
+         arguments: [@logger, %kernel.cache_dir%]
+         tags:
+             - { name: monolog.logger, channel: cache_cleaner }
