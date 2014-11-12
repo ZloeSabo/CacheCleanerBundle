@@ -1,0 +1,14 @@
+{
+    "name": "zloesabo/cache-cleaner-bundle",
+    "description": "Watches over project changes and cleans up cache",
+    "require": {
+        "symfony/symfony": ">=2.3.0, <3.0"
+    },
+    "authors": [
+        {
+            "name": "Evgeny Soynov",
+            "email": "saboteur@saboteur.me"
+        }
+    ],
+    "minimum-stability": "stable"
+}
